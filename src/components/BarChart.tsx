@@ -30,7 +30,7 @@ export function ChartBar({ scores }: { scores: DISCScores }) {
     ]
 
     return (
-        <Card className="h-80 w-[400px]">
+        <Card className="h-64 md:h-80 w-[300px] md:w-[400px]">
             <CardHeader>
                 <CardTitle>Trait Scores</CardTitle>
             </CardHeader>
